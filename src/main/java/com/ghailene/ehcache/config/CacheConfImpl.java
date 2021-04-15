@@ -41,7 +41,7 @@ public class CacheConfImpl implements CacheConf {
         // clear all caches
         clearAllCaches();
 
-       // customerService.getCustomers();
+        customerService.getCustomers();
         System.out.println("End load cache");
     }
 
